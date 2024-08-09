@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="30 seconds">
 
-    <property name="LOGS_HOME" value="./logs/test/"/>
+    <property name="LOGS_HOME" value="./logs/"/>
     <property name="APP_NAME" value="EventTracker"/>
 
     <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
@@ -23,7 +23,7 @@
         </rollingPolicy>
     </appender>
 
-    <root level="info">
+    <root level="warn">
         <appender-ref ref="RollingFile"/>
         <appender-ref ref="Console"/>
     </root>
