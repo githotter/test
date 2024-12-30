@@ -22,7 +22,7 @@ public interface ConfigurationService {
      */
     List<CFG_Configuration> getConfigurationsWithName(String configName);
 
-    Integer getLatestVersion(String configName);
+    Integer getLatestVersion(String configNames);
 
     CFG_Configuration getConfigurationWithNameAndVersion(String configName, Integer version);
 
