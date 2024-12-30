@@ -652,6 +652,10 @@ ngb-carousel {
     width: 24px;
   }
 
+    .mat-button-toggle {
+    width: 24px;
+  }
+
   .mat-button-toggle > button > span {
     padding: 0 2px !important;
     line-height: 24px !important;
